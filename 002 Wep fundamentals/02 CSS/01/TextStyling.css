@@ -1,0 +1,22 @@
+* {
+    padding: 5px;
+}
+h1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+span {
+    color: deepskyblue;
+}
+h2 {
+    background-color:darkorchid ;
+    text-align: center;
+    color: floralwhite;
+    font-style: italic;
+}
+h3{
+    background-color: deepskyblue;
+    text-align: right;
+    text-decoration: underline;
+}
