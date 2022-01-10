@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    
 }
 .card{
     height: 300px;
@@ -9,8 +10,9 @@
     position:fixed ;
     left: 20%;
     top:  20%;
-    background: linear-gradient(rgb(130, 200, 197) 25%, rgb(255, 255, 255) 25%) ;
+    background: linear-gradient(#17a2b8 25%, rgb(255, 255, 255) 25%) ;
     border: 2px solid rgb(131, 131, 131);
+    font-family: 'Roboto', sans-serif;
     
 }
 .data{
@@ -43,5 +45,8 @@ img{
 }
 p{
     font-size: 18px;
+}
+a{
+    color: #2b78e4;
 }
 
