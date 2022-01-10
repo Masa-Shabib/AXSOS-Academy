@@ -1,10 +1,14 @@
 .row{
     display: flex;
     background-color: salmon;
-    margin-bottom: 10px;
-    flex: 5;
     
 
+}
+.col{
+    flex: 1;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
 }
 .col-2{
     flex: 2;

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+.card{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    position:fixed ;
+    left: 20%;
+    top:  20%;
+    
+}
+.bg1{
+    background-color: #17a2b8;
+    height: 70px;
+}
+.bg2{
+    
+    border: 2px solid rgb(131, 131, 131);
+    height: 230px;
+    padding-left: 20px;
+    
+}
+.user{
+    height: 70px;
+    width: 70px;
+    border: solid 2px rgb(131, 131, 131);
+    border-radius: 50px;
+    background-color: white;
+    padding: 3px;
+   
+    
+}
+.data{
+    position: relative;
+    bottom: 40px;
+}
+.location{
+    display: flex;
+    justify-content: flex-start;
+}
+img{
+    height: 30px;
+}
