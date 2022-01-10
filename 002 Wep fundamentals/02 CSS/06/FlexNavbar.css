@@ -1,10 +1,10 @@
 .nav{
     height: 35px;
-    width: 800px;
     background-color: #333333;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     display: flex;
+    flex: 2;
     align-items: center;
     
 }
@@ -13,14 +13,13 @@
 }
 ul.nav-links{
     display: flex;
-    width: 400px; 
-    margin: 0px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 1;
     
 }
 li{
-    padding: 10px;
+    
     display: flex;
     
     
@@ -33,17 +32,17 @@ a {
 .active{
     font-weight: bold;
     font-size: 17px;
+    
 }
 h1{
     margin: 0px;
     height: 33px;
-    width: 350px;
     color: white;
     font-size: 30px;
+    flex: 1;
 }
 .btn {
     border:2px solid rgb(0, 0, 0);
-   
     background-color: #17a2b8;
     color:rgb(255, 255, 255) ;
     font-size: 18px;
