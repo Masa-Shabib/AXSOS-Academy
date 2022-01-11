@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.ppagr{
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 870px;
+    padding:5px 25%;
+    font-family: 'Roboto', sans-serif;
+}
+/* top */
+
+.top{
+    height: 35px;
+    width: 870px;
+    background-color: #333333;
+    padding: 10px 25%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.nav-title{
+    display: flex;
+    flex: 1;
+    margin: 0px;
+    height: 33px;
+    color: white;
+    font-size: 30px;
+}
+ul.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    flex: 4;
+}
+li{
+    display: flex;
+}
+.top a {
+    color: #cac9c9;
+    text-decoration: unset;
+    font-size: 14px;
+}
+.active{
+    font-weight: bold;
+    font-size: 17px;
+}
+.btn {
+    border:2px solid rgb(0, 0, 0);
+    background-color: #17a2b8;
+    color:rgb(255, 255, 255) ;
+    font-size: 18px;
+    box-shadow:4px 4px 2px  black;
+    align-items: center;
+    
+    flex-shrink: 1;
+}
+/* top */
+/* profile */
+.profile{
+    width: 550px;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+.icon{
+    height: 20px;
+}
+.user{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 120px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid #999;
+}
+.data{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.heading{
+    background-color: #17a2b8;
+    height: 90px;
+    margin-bottom: 50px;
+}
+.myname, h3, p{
+    padding: 15px;
+}
+a {
+    color: #3a81e6;
+}
+/* profile */
+
+/* request */
+.request{
+    width: 300px;
+}
+
+.ppic{
+    height: 30px;
+    vertical-align: top;
+}
+
+.heading1{
+    background-color: #333;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+
+}
+.pic{
+    height: 40px;
+    clip-path: circle();
+}
+.person a, .person1 a{
+    text-decoration: none;
+    color: black;
+}
+.twhite{
+    color: white;
+}
+/* request */
+
+/* education */
+.education{
+    width: 550px;
+}
+.education h3{
+    text-align: left;
+}
+
+.edu{
+    font-size: 22px;
+    padding-bottom: 0;
+}
+.edu1{
+    font-size: 16px;
+    padding-top: 0;
+    color: #5a5f5f;
+}
+/* education */
+
+.connection{
+    width: 300px;
+    position: relative;
+    bottom: 220px;
+}
+h5{
+    height: 25px;
+    border-top:2px solid #999;
+    padding: 7px;
+    
+}
+.person1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 15px;
+}
+
+
