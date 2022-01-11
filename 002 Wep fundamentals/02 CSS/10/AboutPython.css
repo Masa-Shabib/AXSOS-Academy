@@ -5,7 +5,8 @@
 }
 .page{
     width: 1100px;
-    background-color: #245076;
+    
+    background:linear-gradient(#245076 80%, #3172a9 40%);
     font-family: 'Roboto', sans-serif;
 }
 h5{
@@ -20,16 +21,16 @@ h5 a{
 .header{
     height: 100px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 0px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
 }
 .header img{
     height: inherit;
 }
 .search{
     height: 35px;
-    padding: 10px 30px;
+    padding: 10px 30px 10px 50px;
     background-color: rgb(71, 70, 70);
     border-radius: 7px;
     box-shadow: 2px 2px 2px black;
@@ -44,18 +45,20 @@ button{
     background-color:#245076 ;
     border-radius: 7px;
     margin-left: 3px;
+    color: white;
 }
 .par ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #5791c0;
     padding: 10px;
     margin: 0 40px 0 70px;
     border-radius: 7px;
     box-shadow: 2px 2px 2px black;
     margin-bottom: 20px;
+    color: white;
 }
 .middle{
     padding: 0 4% 0 10%;
@@ -66,24 +69,27 @@ button{
 .parts{
     flex: 1;
     padding: 15px;
-    line-height: 27px;
+    line-height: 30px;
+    list-style: square;
+    padding-top: 30px;
 }
 .parts a{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 .about{
     flex: 2;
     padding: 15px;
     color: white;
     padding-bottom: 20px;
+    padding-left: 60px;
 }
 .poem{
     color:#f1cb34;
     font-size: 20px;
     padding: 10px;
     font-style: italic;
-    line-height: 27px;
+    line-height: 30px;
 }
 .who{
     padding: 10px 3%  10px 8%;
@@ -93,11 +99,13 @@ button{
     background-color: white;
 }
 strong{
-    font-style: normal;
-    color:#5791c0 ;
+    font-style:normal;
+    font-weight: lighter;
+    color:#75a8d6 ;
+    font-size: 13px;
 }
 .g-started, .applications{
-    border-top: 3px solid grey;
+    border-top: 3px solid #3d6486 ;
     margin-right: 25px;
 }
 .g-started{
@@ -109,15 +117,16 @@ strong{
 }
 .g-started li, .applications li{
     list-style: square;
-    color:#5791c0  ;
+    color:#75a8d6  ;
+    line-height: 25px;
 }
 .help ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    padding: 30px 15%;
-    color: rgb(136, 163, 200);
+    padding: 40px 15%;
+    color: rgb(132, 186, 230);
     font-size: 20px;
 }
 h3{
