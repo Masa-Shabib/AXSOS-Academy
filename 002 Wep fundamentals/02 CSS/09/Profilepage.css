@@ -129,7 +129,7 @@ a {
 }
 .pic{
     height: 40px;
-    clip-path: circle();
+    clip-path:circle(50%);
 }
 .person a, .person1 a{
     text-decoration: none;
