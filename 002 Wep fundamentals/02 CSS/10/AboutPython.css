@@ -6,7 +6,7 @@
 .page{
     width: 1100px;
     
-    background:linear-gradient(#245076 80%, #3172a9 40%);
+    background:linear-gradient(#245076 85% , #3172a9 );
     font-family: 'Roboto', sans-serif;
 }
 h5{
@@ -61,7 +61,7 @@ button{
     color: white;
 }
 .middle{
-    padding: 0 4% 0 10%;
+    padding: 0 4% 0 8%;
     display: flex;
     align-items:flex-start;
     text-align: center;
@@ -72,17 +72,24 @@ button{
     line-height: 30px;
     list-style: square;
     padding-top: 30px;
+    list-style: none;
+}
+.parts li::before{
+    content: "\2BEE";
+    color: #f1cb34;
+    margin-right: 10px;
 }
 .parts a{
     color: white;
     font-size: 20px;
+   
 }
 .about{
     flex: 2;
     padding: 15px;
     color: white;
     padding-bottom: 20px;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 .poem{
     color:#f1cb34;
