@@ -4,24 +4,23 @@
     padding: 0;
 }
 .page{
-    width: 1100px;
-    
     background:linear-gradient(#245076 85% , #3172a9 );
     font-family: 'Roboto', sans-serif;
+    width: 1100px;
 }
 h5{
-    text-align: right;
+    color: white;
     margin-right: 40px;
     padding-top: 10px;
-    color: white;
+    text-align: right;
 }
 h5 a{
     color: #f1cb34;
 }
 .header{
-    height: 100px;
-    display: flex;
     align-items: flex-start;
+    display: flex;
+    height: 100px;
     justify-content: space-between;
     padding: 10px 20px 20px 20px;
 }
@@ -29,54 +28,54 @@ h5 a{
     height: inherit;
 }
 .search{
-    height: 35px;
-    padding: 10px 30px 10px 50px;
     background-color: rgb(71, 70, 70);
     border-radius: 7px;
     box-shadow: 2px 2px 2px black;
+    height: 35px;
+    padding: 10px 30px 10px 50px;
 }
 .input, button{
-    height: 32px;
     border: 2px solid silver;
+    height: 32px;
     text-align: center;
 }
 button{
-    width: 40px;
     background-color:#245076 ;
     border-radius: 7px;
-    margin-left: 3px;
     color: white;
+    margin-left: 3px;
+    width: 40px;
 }
 .par ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 25px;
     background-color: #5791c0;
-    padding: 10px;
-    margin: 0 40px 0 70px;
     border-radius: 7px;
     box-shadow: 2px 2px 2px black;
-    margin-bottom: 20px;
     color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 40px 0 70px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .middle{
-    padding: 0 4% 0 8%;
-    display: flex;
     align-items:flex-start;
+    display: flex;
+    padding: 0 4% 0 8%;
     text-align: center;
 }
 .parts{
     flex: 1;
-    padding: 15px;
     line-height: 30px;
     list-style: square;
-    padding-top: 30px;
     list-style: none;
+    padding: 15px;
+    padding-top: 30px;
 }
 .parts li::before{
-    content: "\2BEE";
     color: #f1cb34;
+    content: "\2BEE";
     margin-right: 10px;
 }
 .parts a{
@@ -85,30 +84,30 @@ button{
    
 }
 .about{
+    color: white;
     flex: 2;
     padding: 15px;
-    color: white;
     padding-bottom: 20px;
     padding-left: 40px;
 }
 .poem{
     color:#f1cb34;
     font-size: 20px;
-    padding: 10px;
     font-style: italic;
     line-height: 30px;
+    padding: 10px;
 }
 .who{
-    padding: 10px 3%  10px 8%;
-    display: flex;
     align-items:flex-start;
-    text-align:center;
     background-color: white;
+    display: flex;
+    padding: 10px 3%  10px 8%;
+    text-align:center;
 }
 strong{
+    color:#75a8d6 ;
     font-style:normal;
     font-weight: lighter;
-    color:#75a8d6 ;
     font-size: 13px;
 }
 .g-started, .applications{
@@ -116,25 +115,25 @@ strong{
     margin-right: 25px;
 }
 .g-started{
-    padding: 0 11% 0 1%;
     margin-left: 10px;
+    padding: 0 11% 0 1%;
 }
 .applications{
     padding: 0 6% 0 1%;
 }
 .g-started li, .applications li{
-    list-style: square;
     color:#75a8d6  ;
+    list-style: square;
     line-height: 25px;
 }
 .help ul{
-    display: flex;
     align-items: center;
+    color: rgb(132, 186, 230);
+    display: flex;
+    font-size: 20px;
     justify-content: space-around;
     list-style: none;
     padding: 40px 15%;
-    color: rgb(132, 186, 230);
-    font-size: 20px;
 }
 h3{
     line-height: 35px;
