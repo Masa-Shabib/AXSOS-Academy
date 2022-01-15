@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 600px;
+    margin-left: 20%;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    height: 45px;
+}
+nav button{
+    background-color: #7d94c4;
+    padding: 4px 1%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(8, 8, 8);
+    width: 60px;
+}
+input{
+    padding: 3px;
+    width:240px ;
+}
+article{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin: 15px 15px 15px 0;
+    padding: 15px;
+}
+main{
+    display: flex;
+}
+aside{
+    border: 2px solid black;
+    margin: 15px 0 15px 0;
+    flex: 2;
+    padding: 10px;
+    height:100px;
+}
+section{
+    flex: 5;
+}
+article ul {
+    list-style: none;
+    line-height: 25px;
+    margin-right: 25px;
+    text-align: center;
+    flex: 1;
+}
+article button{
+    margin-top: 15px;
+    background-color: #ffd966;
+    padding: 4px 18px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(8, 8, 8);
+}
+article ul strong{
+    font-style: italic;
+    font-weight: normal;
+}
+article p{
+    padding-right: 10px;
+    font-size:18px ;
+    flex: 2;
+}
+article p strong{
+    font-weight: normal;
+    color: blue;
+    text-decoration: underline;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 23px;
+}
+aside button{
+    margin-top: 15px;
+    background-color: #93c47d;
+    padding: 4px 20%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(8, 8, 8);
+}
+button{
+    font-weight: bold;
+}
