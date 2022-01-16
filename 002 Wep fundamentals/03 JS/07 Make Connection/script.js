@@ -15,6 +15,8 @@ var count1 = 500;
 var lcount1 = document.querySelector(".badge1");
 function hideI(x){
     hidden[x].remove();
+    count--;
+    lcount.innerText = count 
     count1++;
     lcount1.innerText = count1 
 }
