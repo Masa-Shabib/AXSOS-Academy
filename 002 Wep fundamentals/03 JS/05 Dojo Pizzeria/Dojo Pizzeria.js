@@ -38,26 +38,18 @@ var toppings =[
     "bell peppers",
     "mushrooms"
 ];
-function randomRange(max, min) {
-    return Math.floor(Math.random() * max - min) + min;
-}
-
-function randomPick(arr) {
-    var i = Math.floor(arr.length * Math.random());
-    return arr[i];
-}
 
 function randomPizza() {
     var pizza = {};
-    pizza.crustType = randomPick(crustType);
-    pizza.sauceType = randomPick(sauceType);
+    pizza.crustType = crustType [Math.floor(crustType.length * Math.random())];
+    pizza.sauceType = sauceType [Math.floor(sauceType.length * Math.random())] ;
     pizza.cheeses = [];
     pizza.toppings = [];
-    for(var i=0; i<randomRange(4, 1); i++) {
-        pizza.cheeses.push(randomPick(cheese));
+    for(var i=0; i<3; i++) {
+        pizza.cheeses.push(cheese [Math.floor(cheese.length * Math.random())]);
     }
-    for(var i=0; i<randomRange(4, 0); i++) {
-        pizza.toppings.push(randomPick(toppings));
+    for(var i=0; i<3; i++) {
+        pizza.toppings.push(toppings [Math.floor(toppings.length * Math.random())]);
     }
     return pizza;
 }
