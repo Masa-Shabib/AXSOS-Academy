@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="DojoWeather.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li class="B" onclick="alert1(0)">Burbank</li>
+            <li class="C" onclick="alert1(1)">Chicago</li>
+            <li class="D" onclick="alert1(2)">Dallas</li>
+        </ul>
+    </nav>
+    <header>
+        <h2>San Jose</h2>
+        <p>show the temperature in</p>
+        <select onchange="convert()" name="temp" id="">
+            <option value="">C</option>
+            <option value="">F</option>
+        </select>
+    </header>
+    <main>
+        <section>
+            <h3>Today</h3>
+            <img src="some_rain.png" alt="some_rain">
+            <p>some rain</p>
+            <ul>
+                <li class="red" id="C1">24</li>
+                <li class="blue" id="C2">18</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Tomorrow</h3>
+            <img src="some_sun.png" alt="some_sun">
+            <p>some sun</p>
+            <ul>
+                <li class="red" id="C3">27</li>
+                <li class="blue"id="C4">19</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Friday</h3>
+            <img src="some_clouds.png" alt="some_clouds">
+            <p>some clouds</p>
+            <ul>
+                <li class="red"id="C5">21</li>
+                <li class="blue" id="C6">16</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Saturday</h3>
+            <img src="some_sun.png" alt="some_sun">
+            <p>some sun</p>
+            <ul>
+                <li class="red" id="C7">26</li>
+                <li class="blue" id="C8">21</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <img src="cookie.png" alt="cookie">
+        <article>
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookie (sadly not the edible ones) to personalize
+                content and ads, to provide social media features and to analyse our 
+                traffic. <a href="#">Read more...</a>
+            </p>
+        </article>
+        <button onclick="hide()">I Accept</button>
+    </footer>
+    <script src="DojoWeather.js"></script>
+</body>
+</html>
