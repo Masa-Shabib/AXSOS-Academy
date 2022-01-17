@@ -1,7 +1,8 @@
 console.log("page loaded...");
 var newname = document.querySelector(".myname");
 function edit(){
-    newname.innerText = "Masa Shabib";
+    var name1 = person = prompt("Please enter your name");
+    newname.innerText = name1;
 }
 var count = 2;
 var lcount = document.querySelector(".badge");
