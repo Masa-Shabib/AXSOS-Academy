@@ -1,12 +1,17 @@
 function alwaysHungry(arr) {
-    for(var i = 0; i < arr.length; i++){
-        if(arr[i]== "food"){
-            console.log("yummy")
+    var foodnum = 0
+    for( var i = 0; i < arr.length; i++){
+        if (arr[i] == "food"){
+            console.log("yummy");
+            foodnum++
         }
-        
     }
-    
+    if(foodnum == 0){
+        console.log("I'am hungry");
+    }
 }
+
+
    
 alwaysHungry([3.14, "food", "pie", true, "food"]);
 // this should console log "yummy", "yummy"
