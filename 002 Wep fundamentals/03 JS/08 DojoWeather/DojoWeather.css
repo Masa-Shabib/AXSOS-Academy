@@ -24,6 +24,9 @@ nav ul{
     flex: 2;
     color: white;
 }
+nav li{
+    cursor: pointer;
+}
 h1{
     color: white;
     margin-right: 160px;
@@ -102,4 +105,5 @@ footer button{
     background-color: #9fc5f8;
     border: 2px solid black;
     box-shadow: 2px 2px 1px rgb(8, 8, 8);
+    cursor: pointer;
 }
