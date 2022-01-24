@@ -133,10 +133,18 @@ strong{
     font-size: 20px;
     justify-content: space-around;
     list-style: none;
-    padding: 40px 15%;
+    padding: 40px 15% 20px 15%;
 }
 h3{
     line-height: 35px;
 }
-
+::marker{
+    color: black;
+}
+footer{
+    color: rgb(132, 186, 230);
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
