@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    padding: 10px 10%;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    flex: 5;
+    
+
+}
+.games li {
+    margin-left: 60px;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-left: 40px;
+}
+.navimg{
+    margin-left: 190px;
+}
+.navimg img{
+    height: 30px;
+}
+nav h2{
+    background-color: red;
+}
+.content {
+    display: flex;
+    background-color: #dddddd;
+    padding: 15px 10%;
+}
+aside{
+    flex: 1.2;
+    margin-right: 15px;
+
+}
+aside section{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding:10px 20px 15px 20px;
+    line-height: 37px;
+}
+aside section h3{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+aside section ul{
+    list-style: none;
+}
+aside .news{
+    padding-bottom: 20px;
+}
+aside button{
+    background-color: #4f76cc;
+    padding: 7px 9%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(8, 8, 8);
+}
+.white{
+    background-color: #ffffff;
+    margin-left: 6px;
+}
+.yellow{
+    background-color: #ece7a6;
+    width: 170px;
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    flex: 4;
+    padding: 15px 20px;
+    height:420px;
+}
+h1 span {
+    color: red;
+    padding-right: 90px;
+    
+}
+h1 ::before{
+    content: "....";
+    font-size: 20px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+main section{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+main section ul{
+    list-style: none;
+    text-align: center;
+}
+main section img {
+    height: 180px;
+}
+.data{
+    color: gray;
+    font-size: 11px;
+}
+.score{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.ninjas{
+    color: rgb(82, 182, 185);
+    font-size: 35px;
+}
+.pirates{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+main p {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.vs {
+    font-size: 35px;
+    margin: 90px 0 100px 0;
+}
