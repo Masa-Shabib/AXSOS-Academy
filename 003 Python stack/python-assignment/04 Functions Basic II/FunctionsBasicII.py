@@ -24,10 +24,9 @@ def values_greater_than_second(li):
             print ("false")
         elif li[int] > li[1]:
             new_li.append(li[int])
-            count=count + 1
-    print(count)
+    print(len(new_li))
     return new_li
-p_li =values_greater_than_second([5,2,3,2,1,4])
+p_li =values_greater_than_second([5])
 print(p_li)
 
 def length_and_value(y,x):
