@@ -17,15 +17,15 @@ def first_length(li):
 m = first_length([1,2,3,5,6])
 
 def values_greater_than_second(li):
-    new_li=[]
-    count = 0
-    for int in range (0,len(li)):
         if len(li)< 2 :
-            print ("false")
-        elif li[int] > li[1]:
-            new_li.append(li[int])
-    print(len(new_li))
-    return new_li
+            return False
+        else:
+            new_li=[]
+            for int in range (0,len(li)):
+                if li[int] > li[1]:
+                    new_li.append(li[int])
+        print(len(new_li))
+        return new_li
 p_li =values_greater_than_second([5])
 print(p_li)
 
