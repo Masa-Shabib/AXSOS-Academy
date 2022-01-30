@@ -1,72 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    width: 1000px;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    width: 1000px;
 }
 header{
+    align-items: center;
     display: flex;
-    padding: 10px 10%;
+    padding: 10px 11%;
 }
-
 .games{
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: space-between;
     flex: 5;
-    
-
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: flex-end;
+    list-style: none;
 }
 .games li {
-    margin-left: 60px;
+    text-align: right;
+    width: 165px;
 }
 nav{
+    align-items: center;
     background-color: black;
     color: white;
     display: flex;
-    padding: 10px 10%;
-    align-items: center;
     justify-content: space-between;
+    padding: 0px 11%;
 }
 nav ul {
+    color: #bdbdbd;
     display: flex;
+    font-size: 13px;
     list-style: none;
 }
 nav li {
     margin-left: 40px;
 }
+.navimg li{
+    margin-left: 20px;
+}
 .navimg{
-    margin-left: 190px;
+    margin-left: 60px;
 }
 .navimg img{
-    height: 30px;
+    height: 27px;
 }
 nav h2{
-    background-color: red;
+    background-color: #ff1800;
+    clip-path: polygon( 10% 0% , 100% 0%,90% 100%,0% 100%);
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px 12px;
+    text-align: center;
+    width: 95px;
 }
 .content {
-    display: flex;
     background-color: #dddddd;
-    padding: 15px 10%;
+    display: flex;
+    height: 520px;
+    padding: 15px 11%;
 }
 aside{
-    flex: 1.2;
+    flex: 2.2;
     margin-right: 15px;
-
 }
 aside section{
     background-color: white;
     border-radius: 10px;
+    line-height: 34px;
     margin-bottom: 15px;
-    padding:10px 20px 15px 20px;
-    line-height: 37px;
+    padding:10px 20px 20px 20px;
 }
 aside section h3{
-    padding-bottom: 5px;
     border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+aside section h4{
+    margin-bottom: 8px;
 }
 aside section ul{
     list-style: none;
@@ -75,59 +92,69 @@ aside .news{
     padding-bottom: 20px;
 }
 aside button{
-    background-color: #4f76cc;
-    padding: 7px 9%;
+    background-color: #2b78e4;
     border: 2px solid black;
-    box-shadow: 2px 2px 1px rgb(8, 8, 8);
+    box-shadow: 3px 3px 1px rgb(8, 8, 8);
+    color: white;
+    padding: 7px 11%;
+    height: 35px;
 }
 .white{
     background-color: #ffffff;
-    margin-left: 6px;
+    color: black;
+    margin-left: 13px;
 }
 .yellow{
-    background-color: #ece7a6;
-    width: 170px;
-
+    background-color: #ffe599;
+    color: black;
+    width: 210px;
 }
 main{
     background-color: white;
     border-radius: 10px;
     flex: 4;
+    height:435px;
     padding: 15px 20px;
-    height:420px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 h1 span {
     color: red;
-    padding-right: 90px;
-    
+    padding-right: 85px;
 }
 h1 ::before{
-    content: "....";
-    font-size: 20px;
     background-color: red;
-    border-radius: 50%;
-
+    border-radius: 15px;
+    bottom: 8px; 
+    content: "....";
+    font-size: 12.5px;
+    margin-right: 4px;
+    position: relative;
 }
-main section{
-    display: flex;
+main .colmns{
     border-radius: 10px;
+    display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-main section ul{
+main .colmns ul{
     list-style: none;
     text-align: center;
 }
-main section img {
-    height: 180px;
+main .colmns img {
+    height: 165px;
+    margin-bottom: 8px;
 }
 .data{
     color: gray;
     font-size: 11px;
 }
-.score{
+.score, .score1{
     font-size: 40px;
     font-weight: bolder;
+    margin-top: 5px;
 }
 .ninjas{
     color: rgb(82, 182, 185);
@@ -139,10 +166,14 @@ main section img {
 }
 main p {
     border-top: 2px solid black;
-    padding-top: 10px;
     padding-bottom: 25px;
+    padding-top: 10px;
+    font-size: 14px;
 }
 .vs {
-    font-size: 35px;
-    margin: 90px 0 100px 0;
+    font-size: 25px;
+    margin: 70px 0 120px 0;
+}
+.time{
+    font-size: 13px;
 }
