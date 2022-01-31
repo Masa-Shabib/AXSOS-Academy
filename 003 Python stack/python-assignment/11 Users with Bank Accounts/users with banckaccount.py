@@ -26,9 +26,11 @@ class User:
         self.account.append(BankAccount(int_rate=0.02, balance=0))
         return self
 masa = User("Masa Shabib","masa@yahoo.com")
+marah = User("Marah Shabib","marah@yahoo.com")
 # marah = User("Marah Shabib","marah@yahoo.com")
 # mohammad= User("Mohammad Shabib","mohammad@yahoo.com")
 
 masa.new_account().make_deposit(200,1).display_user_balance(1)
 masa.make_deposit(100,0).display_user_balance(0)
 masa.make_deposit(100,1).display_user_balance(1)
+marah.make_deposit(500,0).display_user_balance(0)
