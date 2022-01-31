@@ -21,7 +21,7 @@ class User:
             self.account.balance=(self.account.balance * self.account.int_rate)+ self.account.balance
         return self
     def display_user_balance(self, accountnum):
-        print("User:",self.name,",","Balance from account number",accountnum,":",self.account[accountnum].balance,"$")
+        print("User:",self.name,",","Balance from account number",accountnum+1,":",self.account[accountnum].balance,"$")
     def new_account (self):
         self.account.append(BankAccount(int_rate=0.02, balance=0))
         return self
