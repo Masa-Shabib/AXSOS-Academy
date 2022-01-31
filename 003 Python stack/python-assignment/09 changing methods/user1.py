@@ -9,7 +9,7 @@ class User:		# here's what we have so far
     def make_withdrawal(self, amount):	
         self.account_balance -= amount
         return self
-    def  transfer_money(self, other_user, amount) :
+    def transfer_money(self, other_user, amount) :
         self.account_balance -= amount
         other_user.account_balance += amount
     def display_user_balance(self):
