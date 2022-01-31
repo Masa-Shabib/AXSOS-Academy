@@ -1,4 +1,4 @@
-class User:		
+class  BankAccount:	
     def __init__(self,int_rate, balance):
         self.int_rate= int_rate
         self.balance = balance
@@ -18,8 +18,8 @@ class User:
     def display_account_info(self):
         print("Balance:",self.balance,"$")
         return self
-masa = User(.05,500)
-marah = User(.03,400)
+masa =  BankAccount(.05,500)
+marah =  BankAccount(.03,400)
 
 # masa.deposit(100).deposit(300).deposit(200).withdrawal(200).yield_interest().display_account_info()
 marah.deposit(100).deposit(500).withdrawal(100).withdrawal(400).withdrawal(200).yield_interest().display_account_info()
