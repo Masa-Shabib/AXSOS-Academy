@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+</head>
+<body>
+    <h1>Users</h1>
+    <table class="table">
+        <tr>
+            <th class="table-dark">First Name</th>
+            <th class="table-dark">Last Name</th>
+            <th class="table-dark">Full Name</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+                <td>{{ user['first_name'] }}</td>
+                <td>{{ user['last_name'] }}</td>
+                <td>{{ user['first_name'] +" "+ user['last_name']}}</td>
+            </tr>
+            {% endfor %}
+    </table>
+</body>
+</html>
