@@ -1,12 +1,12 @@
 .red{
     height: 100px;
     width: 100px;
-    background-color: red;
+    background-color: {{color1}};
 }
 .black{
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: {{color2}};
 }
 .row{
     display: flex;
