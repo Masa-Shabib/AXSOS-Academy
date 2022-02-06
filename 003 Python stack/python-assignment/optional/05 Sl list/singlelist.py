@@ -42,11 +42,22 @@ class List:
         last = None
         return
 
+    def reverse(self):
+        prev = None
+        current = self.head
+        while(current is not None):
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        self.head = prev
+    
     def print(self):
         current = self.head
         while current is not None:
             print (current.value, "---> ",end="")
             current = current.next
+
 
 my_list = List()
 my_list.add_at_end(141)
@@ -55,5 +66,9 @@ my_list.add_at_end(143)
 my_list.add_at_end(144)
 my_list.add_at_end(145)
 my_list.add_at_end(146)
-my_list.delete1(1)
+my_list.add_at_end(147)
+# my_list.delete1(1)
+my_list.print()
+print("\n")
+my_list.reverse()
 my_list.print()
