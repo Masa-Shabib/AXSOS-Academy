@@ -1,7 +1,8 @@
-class  BankAccount:	
-    def __init__(self,int_rate, balance):
-        self.int_rate= int_rate
-        self.balance = balance
+# class  BankAccount:	
+#     def __init__(self,int_rate, balance):
+#         self.int_rate= int_rate
+#         self.balance = balance
+from Bank_Account import BankAccount
 class User:		
     def __init__(self, name, email):
         self.name = name
@@ -9,6 +10,7 @@ class User:
         self.account = [BankAccount(int_rate=0.02, balance=0)]
     def make_deposit(self, amount, accountnum):
         self.account[accountnum].balance += amount
+        self.account[accountnum].deposit(amount)
         return self
     def make_withdrawal(self, amount):	
         self.account.balance -= amount
