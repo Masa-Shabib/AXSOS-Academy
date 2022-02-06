@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/my_style.css') }}">
+</head>
+<body>
+    <h1>Counter</h1>
+    <h2>{{count}} visits</h2>
+    <div>
+        <form action="/destroy_session">
+            <input type="submit" value='reset' class="btn"> 
+        </form>
+        <form action="/add2">
+            <input type="submit" value='+2 visits' class="btn"> 
+        </form>
+    </div>
+    <form action="/num" method="post" class="add">
+        <input type="text" name="num" class="enter" > 
+        <input type="submit" value='add' class="btn">
+    </form>
+    <h3>Visits added: {{num}}</h3>
+    
+</body>
+</html>
