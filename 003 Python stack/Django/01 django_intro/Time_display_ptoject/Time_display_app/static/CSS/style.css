@@ -1,0 +1,24 @@
+body{
+    margin: 15% 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+
+}
+h4{
+    border: 2px solid rgb(226, 205, 180);
+    padding: 10px;
+    width: 200px;
+    box-shadow: 3px 3px 3px rgb(199, 168, 130);
+}
+p{
+    border: 2px solid rgb(226, 205, 180);
+    padding: 10px;
+    width: 400px;
+    font-size: 50px;
+    margin: 0;
+    background-color: rgba(218, 170, 112, 0.2);
+    box-shadow: 5px 5px 3px rgb(199, 168, 130);
+}
