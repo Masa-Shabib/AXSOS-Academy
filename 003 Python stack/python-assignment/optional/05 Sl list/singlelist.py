@@ -15,6 +15,23 @@ class List:
             last = last.next 
         last.next = new_node
         return 
+    def add_at_front(self,value):
+        new_node= Node(value)
+        new_node.next= self.head
+        self.head=new_node
+        return
+    def add_at_pos(self,value,posision):
+        new_node= Node(value)
+        current = self.head
+        if posision-1 == 0:
+            my_list.add_at_front(value)
+            return
+        else:
+            for i in range(1,posision-1):
+                current= current.next
+            new_node.next = current.next
+            current.next = new_node
+            return
     def delete(self,index):
         if self.head == None:
             return
@@ -67,8 +84,10 @@ my_list.add_at_end(144)
 my_list.add_at_end(145)
 my_list.add_at_end(146)
 my_list.add_at_end(147)
+# my_list.add_at_front(147)
+my_list.add_at_pos(140,3)
 # my_list.delete1(1)
-my_list.print()
-print("\n")
-my_list.reverse()
+# my_list.print()
+# print("\n")
+# my_list.reverse()
 my_list.print()
