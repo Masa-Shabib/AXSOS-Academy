@@ -1,0 +1,31 @@
+body{
+    margin: 15% 45%;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+
+}
+.enter{
+    width: 100px;
+    margin-right:10px;
+    height: 24px;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #76a5af;
+    color: white;
+    box-shadow: black 2px 2px 2px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
