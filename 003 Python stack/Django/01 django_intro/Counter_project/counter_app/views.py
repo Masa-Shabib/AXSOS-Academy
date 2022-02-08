@@ -8,7 +8,7 @@ def index(request):
     return render(request,'index.html')
 def destroy(request):
     del request.session['count']
-    del request.session['num']
+    request.session['num']=0
     return redirect('/')
 def add2(request):
     request.session['count']+=1
