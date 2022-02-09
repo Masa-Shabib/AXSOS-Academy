@@ -1,0 +1,12 @@
+1- from user_app.models import User
+2- User.objects.create(first_name="Masa",last_name="Shabib",email="masashabib@gmail.com",age=25)
+3- User.objects.all()
+4- User.objects.last() ---> User.objects.last().__dict__
+5- User.objects.first().__dict__
+6-  c = User.objects.get(id=3)
+    c.last_name="Pancakes"
+    c.save()
+7- c=User.objects.get(id=2)
+   c.delete()
+8- User.objects.all().order_by("first_name")
+9- User.objects.all().order_by("-first_name")
