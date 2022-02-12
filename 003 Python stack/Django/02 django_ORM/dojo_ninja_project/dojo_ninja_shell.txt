@@ -1,0 +1,20 @@
+1- from dojo_ninja_app import *
+2- Dojos.objects.create(name="Dojo1",city="Nablus",state="Palestine")
+3-c=Dojos.objects.get(id=1)
+  c.delete()
+4-Dojos.objects.create(name="Dojo1",city="Nablus",state="Palestine")
+5-Ninjas.objects.create(first_name="Marah",last_name="Shabib",dojo=Dojos.objects.get(id=1))
+6-Ninjas.objects.create(first_name="Jamil",last_name="M.",dojo=Dojos.objects.get(id=2))
+7-Ninjas.objects.create(first_name="Shadi",last_name="F.",dojo=Dojos.objects.get(id=3))
+8-Ninjas.objects.filter(dojo=Dojos.objects.first())
+9-Ninjas.objects.filter(dojo=Dojos.objects.last())
+10-Ninjas.objects.last().dojo
+11-lease select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit and manually define a default value in models.py.
+Select an option: 1
+Please enter the default value as valid Python.
+The datetime and django.utils.timezone modules are available, so it is possible to provide e.g. timezone.now as a value.
+Type 'exit' to exit this prompt
+>>> "old dojo"
+12-Dojos.objects.create(name="Dojo3",city="Nablus",state="Palestine",desc="new dojo")

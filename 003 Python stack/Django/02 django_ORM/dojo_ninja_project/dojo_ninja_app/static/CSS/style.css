@@ -1,0 +1,42 @@
+body{
+    width: 650px;
+    margin: 0 30%;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p{
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+select{
+    width: 177px;
+}
+.list{
+    padding: 0 30%;
+    margin-top: 10px;
+    border-top: 2px solid black;
+
+}
+.dojo_name{
+    list-style: none;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+h2{
+    text-align: center;
+}
+.btn{
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: white;
+    padding: 5px;
+    width: 50px;
+    margin: 0 32%;
+}
