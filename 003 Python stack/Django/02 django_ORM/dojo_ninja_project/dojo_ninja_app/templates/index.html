@@ -28,7 +28,7 @@
             <p>Last Name: <input type='text' name='last_name'> </p>
             <p>Dojo: <select id="dojos" name="dojo_name">
                 {% for dojo in dojos %}
-                <option value="{{ dojo.name}}">{{ dojo.name }}</option>
+                <option value="{{ dojo.name }}">{{ dojo.name }}</option>
                 {% endfor %}
               </select> </p>
             <input type="submit" value='Add'  class="btn">

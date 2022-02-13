@@ -1,0 +1,85 @@
+body{
+    margin: 0 25%;
+    width: 800px;
+    background-color: rgb(216, 252, 252) ;
+}
+.book{
+    margin:20% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.opining{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:40% 20%;
+}
+
+.opining .btn{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(216, 252, 252);
+    border: solid rgb(148, 218, 218) 2px;
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    font-size: 40px;
+    color:rgb(148, 75, 66) ;
+}
+.addbook{
+    border: solid rgb(148, 218, 218) 2px;
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    padding: 10px;
+}
+.addbook p{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    background-color: white;
+    padding: 5px;
+    width: 50px;
+    margin: 0 35%;
+}
+.btn1{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    background-color: white;
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+
+}
+table{
+    border: solid rgb(148, 218, 218) 2px;
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+table td{
+    border-top: solid rgb(148, 218, 218) 2px;
+}
+.show{
+    border: solid rgb(148, 218, 218) 2px;
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    padding: 20px;
+    margin:20% 20%;
+}
+.show h1{
+    text-align: center;
+    color:rgb(148, 75, 66) ;
+}
+select{
+    border: solid rgb(246, 246, 246) 2px;
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    padding: 5px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(148, 75, 66) ;
+}
