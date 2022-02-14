@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Show</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
+</head>
+<body>
+    <h1>Edit Show {{this_show.id}}</h1>
+    <p><a href="http://127.0.0.1:8000/show">Go back</a></p>
+        {% if messages %}
+    <ul class="messages">    
+        {% for message in messages %}    
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+        {% endfor %}
+    </ul>
+    {% endif %}
+        <form action='/update/{{this_show.id}}' method='post'>
+            {% csrf_token %}
+            <p>Title: </p>
+            <input type='text' name='title'>
+            <div class="formdata">
+            <div>
+            <p>Network: </p>
+            <input type='text' name='network'>
+        </div>
+        <div>
+            <p>Release_date: </p>
+            <input type='date' name='release_date'>
+        </div>
+        </div>
+            <p>Descreption: </p>
+            <textarea name="desc"  cols="54" rows="5"></textarea> 
+            <p><input type="submit" value='create'  class="btn"></p>
+        </form>
+        <p><a href="/show/{{this_show.id}}">Go to Show</a></p>
+</body>
+</html>

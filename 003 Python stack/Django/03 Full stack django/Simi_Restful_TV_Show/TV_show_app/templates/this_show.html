@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show {{this_show.id}}</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
+</head>
+<body>
+    <h1>TV Show {{this_show.id}}</h1>
+    <p><a href="http://127.0.0.1:8000/show">Go back</a></p>
+    <p>Title: {{this_show.title}}</p>
+    <p>Network: {{this_show.network}}</p>
+    <p>Release_date: {{this_show.release_date}}</p>
+    <p>Descreption: {{this_show.desc}} </p>
+    <p>Last Updated: {{this_show.updated_at}} </p>
+    <p><a href="/show/{{this_show.id}}/edit">Edit</a> | <a href="/show/{{this_show.id}}/delete" >Delete</a></p>
+</body>
+</html>
