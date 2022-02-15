@@ -39,8 +39,8 @@ def log_in(request):
             request.session['userid'] = logged_user.id
             login=str('loged_in')
             request.session['name']=str(f'Success! Welcome!, {logged_user.first_name}!')
-            del request.session['error2']
-            del request.session['error1']
+            # del request.session['error2']
+            # del request.session['error1']
             return redirect('/success')
         else:
             request.session['error1']=str('Wrong password')
