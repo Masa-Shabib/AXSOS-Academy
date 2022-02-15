@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if messages %}
+    <ul class="messages">    
+        {% for message in messages %}    
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <h1>Registration Form</h1>
+    <form action='register' method='post'>
+        {% csrf_token %}
+            <p>first name: </p>
+            <input type='text' name='first_name'>
+            <div class="formdata">
+            <div>
+            <p>last name: </p>
+            <input type='text' name='last_name'>
+            <p>Birthday: </p>
+            <input type='date' name='birthday'>
+        </div>
+        <div>
+            <p>{{request.session.error2}}</p>
+            <p>email: </p>
+            <input type='email' name='email'>
+        </div>
+        </div>
+            <p>password: </p>
+            <input type='password' name='password'>
+            <p>confirm PW: </p>
+            <input type='password' name='password_con'>
+            <p><input type="submit" value='register'  class="btn"></p>
+    </form>
+    <h1>Login Form</h1>
+    <p>{{request.session.error1}}</p>
+    <form action='log_in' method='post'>
+        {% csrf_token %}
+            <p>email: </p>
+            <input type='email' name='email'>
+            <p>password: </p>
+            <input type='password' name='password'>
+            
+            <p><input type="submit" value='log in'  class="btn"></p>
+    </form>
+</body>
+</html>

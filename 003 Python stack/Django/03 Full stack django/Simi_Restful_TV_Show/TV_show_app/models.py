@@ -1,5 +1,3 @@
-from pkgutil import get_data
-from turtle import title
 from django.db import models
 from datetime import datetime
 
