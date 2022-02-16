@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin:50px 35%;
+    width: 500px;
+    background-color: rgb(248, 255, 255) ;
+}
+h1{
+    color:rgb(148, 75, 66) ;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 600px;
+}
+a{
+    text-decoration: underline;
+    color:rgb(0, 0, 0) ;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 10%;
+    border-bottom: 2px solid rgb(143, 143, 143);
+    padding: 10px;
+}
+.btn{
+    border: 1px solid rgb(212, 211, 211);
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    background-color: #2b78e4;
+    padding: 5px;
+    width: 120px;
+    margin: 0 75%;
+    color: white;
+}
+.btn1{
+    border: 1px solid rgb(211, 211, 212);
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    background-color: #009e0f;
+    padding: 5px;
+    width: 120px;
+    margin: 0 75%;
+    color: white;
+}
+.btn2{
+    border: 1px solid rgb(211, 211, 212);
+    box-shadow: 4px 4px 4px rgb(92, 92, 92);
+    background-color: #9e0000;
+    padding: 5px;
+    width: 80px;
+    color: white;
+
+}
+.messages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+textarea{
+    margin: 3px 0;
+}
+li{
+    list-style: none;
+    text-indent: 15px;
+}
+p{
+    color:rgb(85, 64, 61) ;
+    font-size: 18px;
+    margin: 10px 0 6px 0;
+    font-weight: bold;
+    text-indent: 10px;
+}
+h5{
+    color:rgb(158, 38, 22) ;
+    font-size: 18px;
+    margin: 10px 0 6px 0;
+    font-weight: bolder;
+}
+form{
+    margin-bottom: 10px;
+}
