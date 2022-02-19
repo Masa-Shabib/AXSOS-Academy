@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{this_book.title}}</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'CSS/book.css'%}">
+</head>
+<body>
+    <header>
+        <h1>Welcome, {{request.session.first_name}}</h1>
+        <a href="/books/user">{{request.session.first_name}} - books</a>
+        <a href="/books">Main</a>
+        <a href="/delete">logout</a>
+    </header>
+    <main>
+        <div>
+            <h3>{{request.session.first_name}}'s favorite Books</h3>
+            {% for book in like_by_user %} 
+                <ul >    
+                    <a href="{{ book.id}}" >{{ book.title }}</a>   
+                    <li> added by {{ book.uploaded_by.first_name }}  {{ book.uploaded_by.last_name }}</li>
+                </ul>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{this_book.title}}</title>
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'CSS/book.css'%}">
+</head>
+<body>
+    <header>
+        <h1>Welcome, {{request.session.first_name}}</h1>
+        <a href="/books/user">{{request.session.first_name}} - books</a>
+        <a href="/books">Main</a>
+        <a href="/delete">logout</a>
+    </header>
+    <main>
+        <div>
+            {% if messages %}
+            <ul class="messages">    
+                {% for message in messages %}    
+                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if request.session.user_id == uploded_by  %}
+                <form action='{{ this_book.id }}/update_book' method='post'>
+                    {% csrf_token %}
+                    <input type='text' name='title' placeholder="{{this_book.title}}" class="title_input">
+                    <p>Added by: {{ this_book.uploaded_by.first_name }}  {{ this_book.uploaded_by.last_name }}</p>
+                    <p>Added on: {{ this_book.created_at }}</p>
+                    <p>Last updated on: {{ this_book.updated_at }}</p>
+                    <p>Description: <textarea name="desc" id="" cols="20" rows="3" placeholder="{{this_book.desc}}"></textarea></p>
+                    <input type="submit" value='Update' class="btn2" >
+                </form>
+                <form action='{{ this_book.id }}/delete_book' method='post'>
+                    {% csrf_token %}
+                    <input type="submit" value='Delete' class="btn3" >
+                </form>
+            {% endif %}
+            {% if request.session.user_id != uploded_by  %}
+                <h2>{{this_book.title}}</h2>
+                <p>Added by: {{ this_book.uploaded_by.first_name }}  {{ this_book.uploaded_by.last_name }}</p>
+                <p>Added on: {{ this_book.created_at }}</p>
+                <p>Last updated on: {{ this_book.updated_at }}</p>
+            {% endif %}
+        </div>
+        <div class="user_like">
+            <h3>Users who like this book:</h3>
+            {% if this_user not in liked_by  %}
+                <a href="{{ this_book.id}}/add_fav">add to favoratie</a>
+            {% endif %}
+            <ul>
+                {% for user in liked_by %} 
+                    {% if request.session.user_id == user.id  %}
+                        <li>{{ user.first_name }}  {{ user.last_name }} <a href="{{ this_book.id}}/unfav">unfavorite</a></li>
+                        {% else %}
+                            <li>{{ user.first_name }}  {{ user.last_name }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
+        </div>
+    </main>
+</body>
+</html>
