@@ -27,7 +27,7 @@ def add_new_user (request):
             email=request.POST['email'],password=pw_hash)
             messages.success(request, "User successfully craeted")
             request.session['name']=str(f'Success! Welcome!, {new_user.first_name}!')
-            return redirect('/books')
+            return redirect('/')
 
 def log_in(request):
     user = User.objects.filter(email=request.POST['email'])

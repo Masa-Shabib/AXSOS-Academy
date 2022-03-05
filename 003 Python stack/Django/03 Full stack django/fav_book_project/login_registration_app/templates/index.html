@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register / Login</title>
-    {%load static%}
+    {% load static %}
     <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
 </head>
 <body>
     <header>
         <h1>Welcome</h1>
+        {% if messages %}
+            <ul class="messages">    
+                {% for message in messages %}    
+                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+                {% endfor %}
+            </ul>
+            {% endif %}
     </header>
     <div class="main">
         <div class="form">
@@ -38,12 +45,6 @@
             </form>
         </div>  
     </div>
-    {% if messages %}
-            <ul class="messages">    
-                {% for message in messages %}    
-                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
-                {% endfor %}
-            </ul>
-            {% endif %}
+    
 </body>
 </html>
