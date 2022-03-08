@@ -12,6 +12,10 @@ public class MammmalTest {
 		g.eatBananas();
 		g.climb();
 		
+		Bat b = new Bat();
+		b.fly();
+		b.eatHumans();
+		b.attackTown();
 	}
 
 }
