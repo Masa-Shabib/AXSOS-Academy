@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Date </title>
 <link rel="stylesheet" type="text/css" href="/CSS/date.css">
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/date.js"></script>
 </head>
 <body>
 	 <%java.text.DateFormat df = new java.text.SimpleDateFormat("E,d  MMMM,YYYY"); %>

@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="/CSS/time.css">
-	<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/time.js"></script>
 </head>
 <body>
 	 <%java.text.DateFormat df = new java.text.SimpleDateFormat("k:m  a"); %>
