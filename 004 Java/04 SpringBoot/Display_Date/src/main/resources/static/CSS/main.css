@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+h3{
+    text-align: center;
+    margin:20% 20%;
+    
+}
+body{
+	display:flex;
+	justify-content: space-around;
+}
