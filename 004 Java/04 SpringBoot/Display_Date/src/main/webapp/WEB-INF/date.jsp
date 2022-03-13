@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="js/date.js"></script>
 </head>
 <body>
-	 <%java.text.DateFormat df = new java.text.SimpleDateFormat("E,d  MMMM,YYYY"); %>
+	 <%java.text.DateFormat df = new java.text.SimpleDateFormat("EEEE,'the' d 'of' MMMM,YYYY"); %>
 	 <h1>Current Date: <%= df.format(new java.util.Date()) %> </h1>
 </body>
 </html>
