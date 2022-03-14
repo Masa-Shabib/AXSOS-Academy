@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+body{
+	margin:0 30%;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	width:270px;
+	padding:20px;
+	border:solid 1px black;
+}
+input{
+	width:130px;
+}
+label, input,textarea{
+	margin:0 0 5px 0;
+}
+.sub{
+	border:2px solid rgb(0, 0, 0);
+    background-color: #17a2b8;
+    color:rgb(255, 255, 255) ;
+    box-shadow:4px 4px 2px  black;
+    width:50px;
+    margin-left: 80%;
+}
+h1{
+	margin-left: 20px;
+}
+.omikuji{
+	background-color: #9fc5f8;
+	width:270px;
+	padding:30px;
+	border:solid 1px black;
+	font-size:33px;
+}
+a{
+	margin-left: 15%;
+}
