@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0 20%;
+}
+main,header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+main div{
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    border: 2px solid black;
+}
+header div{
+    display: flex;
+    align-items: center;
+
+}
+header p{
+    border: 2px solid black;
+    width: 120px;
+    margin-left: 10px;
+    padding: 5px;
+}
+footer p{
+    border: 2px solid black;
+    padding: 10px;
+    height: 60px;
+    margin: 0;
+    overflow: auto;
+}
+.sub{
+	border:2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow:4px 4px 2px  black;
+}
+h1{
+	font-size:50px;
+	color:red;
+}
