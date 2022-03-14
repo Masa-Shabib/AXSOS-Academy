@@ -60,9 +60,9 @@
             </form>
         </div>
     </main>
-    <footer>
         <h5>Activities:</h5>
-        <p><%=session.getAttribute("result")%></p>
+    <footer>
+        <c:out value="${result}" escapeXml="false"/>
     </footer>
 </body>
 </html>

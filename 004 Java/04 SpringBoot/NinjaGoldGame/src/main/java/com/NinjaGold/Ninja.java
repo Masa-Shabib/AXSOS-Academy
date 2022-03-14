@@ -26,10 +26,7 @@ public class Ninja {
 		model.addAttribute("result", (String) session.getAttribute("result"));
 		if((Integer)session.getAttribute("gold")<-40) {
 			return ("jail.jsp");
-		}else {
-		
-		
-		return ("ninja.jsp");}
+		}else {return ("ninja.jsp");}
 	}
 	
 	@RequestMapping(value="/process_money", method=RequestMethod.POST)	
@@ -41,36 +38,36 @@ public class Ninja {
 			Random randMachine =  new Random();
 			int num = randMachine.nextInt(20 - 10) + 10;
 			session.setAttribute("gold",((Integer)session.getAttribute("gold")+num));
-			String result= "Earned "+num + "golds from the farm!"+date+"<br/>";
+			String result= "<p style='color:green;'>Earned "+num + "golds from the farm!"+date+"</p>";
 			session.setAttribute("result",(String) session.getAttribute("result")+result);
 		}else if(which_form.equals("cave")) {
 			Random randMachine =  new Random();
 			int num = randMachine.nextInt(10 - 5) + 5;
 			session.setAttribute("gold",((Integer)session.getAttribute("gold")+num));
-			String result= "Earned "+num + "golds from the cave!"+date+"<br/>";
+			String result= "<p style='color:green;'>Earned "+num + "golds from the cave!"+date+"</p>";
 			session.setAttribute("result",(String) session.getAttribute("result")+result);
 		}else if(which_form.equals("house")) {
 			Random randMachine =  new Random();
 			int num = randMachine.nextInt(5 - 2) + 2;
 			session.setAttribute("gold",((Integer)session.getAttribute("gold")+num));
-			String result= "Earned "+num + "golds from the cave!"+date+"<br/>";
+			String result= "<p style='color:green;'>Earned "+num + "golds from the cave!"+date+"</p>";
 			session.setAttribute("result",(String) session.getAttribute("result")+result);
 		}else if(which_form.equals("casino")){
 			Random randMachine =  new Random();
 			int num = randMachine.nextInt(50 - -50) + -50;
 			session.setAttribute("gold",((Integer)session.getAttribute("gold")+num));
 			if(num < 0) {	
-				String result= "Entered a casino and lost "+num + "golds...Ouch!!..."+date+"<br/>";
+				String result= "<p style='color:red;'>Entered a casino and lost "+num + "golds...Ouch!!..."+date+"</p>";
 				session.setAttribute("result",(String) session.getAttribute("result")+ result);
 			}else {
-				String result= "Entered a casino and earned "+num + "golds"+date+"<br/>";
+				String result= "<p style='color:green;'>Entered a casino and earned"+num + "golds"+date+"</p>";
 				session.setAttribute("result",(String) session.getAttribute("result")+ result);
 			}
 		}else {
 			Random randMachine =  new Random();
 			int num = randMachine.nextInt(-5 - -20) + -20;
 			session.setAttribute("gold",((Integer)session.getAttribute("gold")+num));
-			String result= "Earned "+num + "golds from the cave!"+date+"<br/>";
+			String result= "<p style='color:red;'>Entered a spa and lost "+num + "golds...Ouch!!..."+date+"</p>";
 			session.setAttribute("result",(String) session.getAttribute("result")+result);
 		}
 		return ("redirect:/gold");

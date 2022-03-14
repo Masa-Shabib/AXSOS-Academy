@@ -1774,3 +1774,677 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:p
 2022-03-14 13:00:41,862 [Worker-77: Launching Omikuji - OmikujiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-14 13:00:41,862 [Worker-77: Launching Omikuji - OmikujiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-03-14 13:00:41,862 [Worker-77: Launching Omikuji - OmikujiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\Omikuji\src\test\resources
+2022-03-14 13:18:02,215 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.NinjaGold:NinjaGoldGame:0.0.1-SNAPSHOT @ D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\pom.xml.
+2022-03-14 13:18:02,375 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/main/java
+2022-03-14 13:18:02,375 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 13:18:02,376 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 13:18:02,377 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/test/java
+2022-03-14 13:18:02,650 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-03-14 13:18:02,651 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-03-14 13:18:02,836 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.NinjaGold:NinjaGoldGame:0.0.1-SNAPSHOT @ D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\pom.xml.
+2022-03-14 13:18:03,077 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/main/java
+2022-03-14 13:18:03,077 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 13:18:03,077 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 13:18:03,077 [Worker-75: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/test/java
+2022-03-14 13:18:03,266 [Worker-75: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for NinjaGoldGame
+2022-03-14 13:18:03,273 [Worker-75: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-03-14 13:18:03,774 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:03,774 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:03,774 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:18:03,775 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:03,776 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:03,776 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:03,776 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:18:03,776 [Worker-85: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NinjaGoldGame
+2022-03-14 13:18:03,776 [Worker-85: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NinjaGoldGame
+2022-03-14 13:18:03,778 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:03,778 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:39,034 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.NinjaGold:NinjaGoldGame:0.0.1-SNAPSHOT @ D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\pom.xml.
+2022-03-14 13:18:39,279 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:39,279 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:39,279 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:39,279 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:39,280 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:39,280 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:39,280 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:18:39,280 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NinjaGoldGame
+2022-03-14 13:18:39,280 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NinjaGoldGame
+2022-03-14 13:18:39,281 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:39,281 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:40,507 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:40,507 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:40,507 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:18:40,508 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:40,508 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:40,508 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:40,508 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:18:58,946 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:58,946 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:58,946 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:58,946 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:18:58,947 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:18:58,947 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:18:58,947 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:19:17,540 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:17,540 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:17,540 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:19:17,561 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:19:17,562 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:17,562 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:17,562 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:19:30,743 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:30,743 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:30,743 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:19:30,744 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:19:30,744 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:30,744 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:30,744 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:19:45,787 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:45,787 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:45,787 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:19:45,788 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:19:45,790 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:19:45,790 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:19:45,790 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:20:30,997 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:20:30,998 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:20:30,998 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:20:31,000 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:20:31,001 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:20:31,001 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:20:31,002 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:20:51,292 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:20:51,292 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:20:51,292 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:20:51,292 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:20:51,293 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:20:51,293 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:20:51,293 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:23:34,131 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:23:34,131 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:23:34,132 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:23:34,137 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:23:34,139 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:23:34,139 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:23:34,139 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:24:13,930 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:24:13,930 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:24:13,930 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:24:13,930 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:24:13,932 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:24:13,932 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:24:13,932 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 13:26:10,433 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:26:10,433 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:26:10,434 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 13:26:10,434 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 13:26:10,436 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 13:26:10,436 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 13:26:10,436 [Worker-75: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:02:20,623 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:02:20,623 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:02:20,623 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:02:20,629 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:02:20,631 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:02:20,631 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:02:20,631 [Worker-97: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:07:40,094 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:07:40,094 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:07:40,095 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:07:40,102 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:07:40,103 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:07:40,103 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:07:40,103 [Worker-101: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:11:33,973 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:11:33,973 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:11:33,973 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:11:33,977 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:11:33,978 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:11:33,978 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:11:33,978 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:13:13,709 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:13:13,709 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:13:13,709 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:13:13,716 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:13:13,717 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:13:13,717 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:13:13,717 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:13:56,810 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:13:56,811 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:13:56,811 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:13:56,852 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:13:56,853 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:13:56,853 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:13:56,853 [Worker-103: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:14:49,058 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:14:49,058 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:14:49,058 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:14:49,063 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:14:49,065 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:14:49,065 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:14:49,065 [Worker-105: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:17:22,799 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:17:22,799 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:17:22,799 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:17:22,811 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:17:22,812 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:17:22,812 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:17:22,812 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:19:01,914 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:19:01,914 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:19:01,914 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:19:01,923 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:19:01,924 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:19:01,924 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:19:01,924 [Worker-111: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:19:45,064 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:19:45,064 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:19:45,065 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:19:45,069 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:19:45,071 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:19:45,071 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:19:45,071 [Worker-114: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:23:48,022 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:23:48,023 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:23:48,023 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:23:48,028 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:23:48,030 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:23:48,030 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:23:48,030 [Worker-110: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:24:10,060 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:24:10,061 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:24:10,061 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:24:10,067 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:24:10,068 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:24:10,068 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:24:10,068 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:26:55,952 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:26:55,953 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:26:55,953 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:26:55,959 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:26:55,960 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:26:55,961 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:26:55,961 [Worker-116: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:30:30,253 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:30:30,253 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:30:30,253 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:30:30,259 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:30:30,260 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:30:30,260 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:30:30,260 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:31:42,908 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:31:42,909 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:31:42,923 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:31:42,930 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:31:42,933 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:31:42,933 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:31:42,933 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:32:00,894 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:32:00,894 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:32:00,895 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:32:00,904 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:32:00,907 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:32:00,907 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:32:00,907 [Worker-124: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:33:06,096 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:33:06,096 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:33:06,097 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:33:06,100 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:33:06,102 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:33:06,102 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:33:06,102 [Worker-126: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:34:42,805 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:34:42,805 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:34:42,806 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:34:42,810 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:34:42,812 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:34:42,812 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:34:42,812 [Worker-109: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:36:16,106 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:36:16,106 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:36:16,106 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:36:16,110 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:36:16,112 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:36:16,112 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:36:16,112 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:37:22,702 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:37:22,703 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:37:22,703 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:37:22,707 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:37:22,708 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:37:22,708 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:37:22,708 [Worker-125: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:38:21,271 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:38:21,271 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:38:21,272 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:38:21,276 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:38:21,278 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:38:21,278 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:38:21,278 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:39:49,092 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:39:49,092 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:39:49,093 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:39:49,093 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:39:49,094 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:39:49,094 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:39:49,094 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:39:58,631 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:39:58,631 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:39:58,631 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:39:58,631 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:39:58,632 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:39:58,632 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:39:58,632 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:41:08,203 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:41:08,203 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:41:08,204 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:41:08,207 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:41:08,209 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:41:08,209 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:41:08,209 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:42:08,616 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:42:08,616 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:42:08,617 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:42:08,634 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:42:08,636 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:42:08,636 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:42:08,636 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:43:17,560 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:43:17,560 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:43:17,561 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:43:17,566 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:43:17,568 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:43:17,568 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:43:17,568 [Worker-134: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:47:44,577 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:47:44,577 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:47:44,578 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:47:44,583 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:47:44,584 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:47:44,584 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:47:44,584 [Worker-135: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:48:45,840 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:48:45,840 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:48:45,840 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:48:45,847 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:48:45,849 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:48:45,849 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:48:45,849 [Worker-136: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:50:30,372 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:50:30,372 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:50:30,373 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:50:30,378 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:50:30,380 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:50:30,380 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:50:30,380 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:51:07,942 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:51:07,943 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:51:07,943 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:51:07,949 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:51:07,951 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:51:07,951 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:51:07,951 [Worker-130: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:52:19,132 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:52:19,132 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:52:19,132 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:52:19,139 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:52:19,140 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:52:19,140 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:52:19,140 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:53:08,953 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:53:08,953 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:53:08,953 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:53:08,953 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:53:08,954 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:53:08,954 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:53:08,954 [Worker-129: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:54:20,342 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:54:20,342 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:54:20,342 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:54:20,342 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:54:20,343 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:54:20,343 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:54:20,343 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:54:47,176 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:54:47,176 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:54:47,176 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:54:47,176 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:54:47,179 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:54:47,179 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:54:47,179 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:55:14,826 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:55:14,826 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:55:14,826 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:55:14,826 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:55:14,828 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:55:14,828 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:55:14,828 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:56:25,483 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:56:25,483 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:56:25,483 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:56:25,484 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:56:25,485 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:56:25,485 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:56:25,485 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:57:02,887 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:57:02,887 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:57:02,888 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 14:57:02,888 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:57:02,889 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:57:02,889 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:57:02,889 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 14:58:50,063 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:58:50,063 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:58:50,064 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:58:50,069 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 14:58:50,071 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 14:58:50,071 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 14:58:50,071 [Worker-131: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:04:41,772 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:04:41,772 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:04:41,773 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:04:41,780 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:04:41,781 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:04:41,781 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:04:41,781 [Worker-142: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:04:57,468 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:04:57,468 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:04:57,468 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:04:57,474 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:04:57,475 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:04:57,475 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:04:57,475 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:11:12,702 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:11:12,702 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:11:12,703 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:11:12,709 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:11:12,711 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:11:12,711 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:11:12,711 [Worker-120: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:16:54,004 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:16:54,004 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:16:54,004 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:16:54,013 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:16:54,015 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:16:54,015 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:16:54,015 [Worker-149: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:18:35,498 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:18:35,498 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:18:35,498 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:18:35,498 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:18:35,499 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:18:35,499 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:18:35,499 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:20:14,821 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:20:14,821 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:20:14,822 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:20:14,826 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:20:14,828 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:20:14,828 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:20:14,828 [Worker-153: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:21:17,491 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:21:17,491 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:21:17,491 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:21:17,491 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:21:17,491 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:21:17,492 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:21:17,492 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:24:37,218 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:24:37,218 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:24:37,219 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:24:37,225 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:24:37,227 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:24:37,227 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:24:37,227 [Worker-138: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:25:09,160 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:25:09,161 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:25:09,161 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:25:09,168 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 15:25:09,169 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:25:09,169 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:25:09,169 [Worker-152: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 15:25:55,278 [Worker-154: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 15:29:08,635 [Worker-157: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration OmikujiApplication references closed project Omikuji
+org.eclipse.core.runtime.CoreException: Launch configuration OmikujiApplication references closed project Omikuji
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-14 15:29:08,636 [Worker-157: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration OmikujiApplication references closed project Omikuji
+org.eclipse.core.runtime.CoreException: Launch configuration OmikujiApplication references closed project Omikuji
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-14 15:29:08,637 [Worker-157: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration OmikujiApplication references closed project Omikuji
+org.eclipse.core.runtime.CoreException: Launch configuration OmikujiApplication references closed project Omikuji
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:818)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-14 17:00:52,797 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:00:52,797 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:00:52,798 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:00:52,798 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:00:52,798 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:00:52,798 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:00:52,798 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:01:03,270 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:01:03,270 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:01:03,270 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:01:03,270 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:01:03,271 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:01:03,271 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:01:03,271 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:02:35,007 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:02:35,007 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:02:35,007 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:02:35,031 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:02:35,034 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:02:35,034 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:02:35,035 [Worker-161: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:16:16,160 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:16:16,160 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:16:16,160 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:16:16,166 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:16:16,167 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:16:16,167 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:16:16,167 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:16:37,669 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:16:37,669 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:16:37,669 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:16:37,669 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:16:37,670 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:16:37,670 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:16:37,670 [Worker-165: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:17:46,078 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:17:46,078 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:17:46,078 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:17:46,078 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:17:46,080 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:17:46,080 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:17:46,080 [Worker-173: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:18:14,403 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:18:14,404 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:18:14,404 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:18:14,413 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:18:14,415 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:18:14,415 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:18:14,415 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:19:41,790 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:19:41,790 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:19:41,790 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:19:41,804 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:19:41,806 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:19:41,806 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:19:41,806 [Worker-176: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:20:47,755 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:20:47,756 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:20:47,756 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:20:47,756 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:20:47,758 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:20:47,758 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:20:47,758 [Worker-179: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:21:35,747 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:21:35,747 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:21:35,747 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:21:35,747 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:21:35,748 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:21:35,748 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:21:35,748 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:22:20,277 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:22:20,277 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:22:20,277 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:22:20,277 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:22:20,279 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:22:20,279 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:22:20,279 [Worker-170: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:23:38,520 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:24:48,441 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:24:48,441 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:24:48,442 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:24:48,442 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:24:48,443 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:24:48,444 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:24:48,444 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:25:04,988 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:25:04,988 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:25:04,988 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:25:04,988 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:25:04,990 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:25:04,990 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:25:04,990 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:25:13,996 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:25:13,996 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:25:13,996 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:25:13,996 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:25:13,998 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:25:13,998 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:25:13,998 [Worker-178: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:28:06,198 [Worker-182: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-03-14 17:28:06,433 [Worker-182: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.NinjaGold:NinjaGoldGame:0.0.1-SNAPSHOT @ D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\pom.xml.
+2022-03-14 17:28:06,937 [Worker-182: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/main/java
+2022-03-14 17:28:06,937 [Worker-182: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 17:28:06,937 [Worker-182: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NinjaGoldGame/src/main/resources
+2022-03-14 17:28:06,938 [Worker-182: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NinjaGoldGame/src/test/java
+2022-03-14 17:28:07,149 [Worker-182: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for NinjaGoldGame
+2022-03-14 17:28:07,152 [Worker-182: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-03-14 17:28:07,444 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:28:07,445 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:28:07,445 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:28:07,455 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:28:07,458 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:28:07,458 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:28:07,458 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:28:07,458 [Worker-176: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NinjaGoldGame
+2022-03-14 17:28:07,458 [Worker-176: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NinjaGoldGame
+2022-03-14 17:28:07,460 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:28:07,460 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:29:03,063 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:29:03,063 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:29:03,063 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:29:03,063 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:29:03,064 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:29:03,065 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:29:03,065 [Worker-172: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:30:45,850 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:30:45,850 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:30:45,851 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:30:45,860 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:30:45,862 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:30:45,862 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:30:45,862 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:31:18,632 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:31:18,632 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:31:18,632 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:31:18,644 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:31:18,646 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:31:18,646 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:31:18,646 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:31:43,906 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:31:43,906 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:31:43,906 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:31:43,906 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:31:43,908 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:31:43,908 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:31:43,908 [Worker-180: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:32:24,050 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:32:24,050 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:32:24,051 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:32:24,051 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:32:24,053 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:32:24,053 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:32:24,053 [Worker-185: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
+2022-03-14 17:33:01,814 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:33:01,814 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:33:01,814 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-14 17:33:01,815 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-14 17:33:01,817 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-14 17:33:01,817 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-14 17:33:01,817 [Worker-183: Launching NinjaGoldGame - NinjaGoldGameApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\AXSOS-Academy\004 Java\04 SpringBoot\NinjaGoldGame\src\test\resources
