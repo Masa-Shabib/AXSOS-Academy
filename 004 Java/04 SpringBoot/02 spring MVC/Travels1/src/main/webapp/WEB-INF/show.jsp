@@ -18,10 +18,11 @@
 	<div class = "container-md-fluid m-5 p-5">
         <div class = "row justify-content-center">
             <div class = "col-5 align-self-center">
-                <h1 class = "mb-3"><strong>Title:</strong> <c:out value="${book.title}"/></h1>
-                <p style = "font-size: 20px;"><strong>Description:</strong> <c:out value="${book.description}"/></p>
-                <p style = "font-size: 20px;"><strong>Language:</strong> <c:out value="${book.language}"/></p>
-                <p style = "font-size: 20px;"><strong>Number of pages:</strong> <c:out value="${book.numberOfPages}"/></p>
+            	<h1 style="color: Blue">Expense Details</h1><a href="/travels">Go Back</a>
+                <h3 class = "mb-3"><strong>Expense Name:</strong> <c:out value="${travels.name}"/></h3>
+                <p style = "font-size: 20px;"><strong>Expense Description:</strong> <c:out value="${travels.description}"/></p>
+                <p style = "font-size: 20px;"><strong>Vendor:</strong> <c:out value="${travels.vendor}"/></p>
+                <p style = "font-size: 20px;"><strong>Amount: $</strong> <c:out value="${travels.amount}"/></p>
             </div>
         </div>
     </div>	

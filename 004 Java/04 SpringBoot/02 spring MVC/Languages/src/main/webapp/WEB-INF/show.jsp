@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Language Details</title>
 <!-- for Bootstrap CSS -->
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 <!-- YOUR own local CSS -->
@@ -18,10 +18,11 @@
 	<div class = "container-md-fluid m-5 p-5">
         <div class = "row justify-content-center">
             <div class = "col-5 align-self-center">
-                <h1 class = "mb-3"><strong>Title:</strong> <c:out value="${book.title}"/></h1>
-                <p style = "font-size: 20px;"><strong>Description:</strong> <c:out value="${book.description}"/></p>
-                <p style = "font-size: 20px;"><strong>Language:</strong> <c:out value="${book.language}"/></p>
-                <p style = "font-size: 20px;"><strong>Number of pages:</strong> <c:out value="${book.numberOfPages}"/></p>
+            	<h1 style="color: Blue">Language Details</h1><a href="/languages">Go Back</a>
+                <h3 class = "mb-3"><strong>Language Name:</strong> <c:out value="${languages.name}"/></h3>
+                <p style = "font-size: 20px;"><strong>Language Creator:</strong> <c:out value="${languages.creator}"/></p>
+                <p style = "font-size: 20px;"><strong>Language Version:</strong> <c:out value="${languages.version}"/></p>
+
             </div>
         </div>
     </div>	
