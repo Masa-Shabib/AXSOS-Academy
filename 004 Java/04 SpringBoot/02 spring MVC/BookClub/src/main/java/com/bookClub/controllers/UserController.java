@@ -2,7 +2,6 @@ package com.bookClub.controllers;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -18,10 +17,13 @@ import com.bookClub.services.UserService;
 public class UserController {
     
     // Add once service is implemented:
-    @Autowired
-    private UserService userServ;
-      
-    @GetMapping("/")
+    
+    private final UserService userServ;
+    public UserController(UserService userServ) {
+		this.userServ = userServ;
+	}
+
+	@GetMapping("/")
     public String index(Model model) {
         // Bind empty User and LoginUser objects to the JSP
         // to capture the form input

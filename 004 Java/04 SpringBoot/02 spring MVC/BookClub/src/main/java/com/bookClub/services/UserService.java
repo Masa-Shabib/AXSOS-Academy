@@ -3,7 +3,6 @@ package com.bookClub.services;
 import java.util.List;
 import java.util.Optional;
 import org.mindrot.jbcrypt.BCrypt;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 import com.bookClub.models.LoginUser;
@@ -15,10 +14,13 @@ import com.bookClub.repositories.UserRepository;
 @Service
 public class UserService {
     
-    @Autowired
-    private UserRepository userRepo;
+   
+    private final UserRepository userRepo;
+    public UserService(UserRepository userRepo) {
+		this.userRepo = userRepo;
+	}
     
-    public List<User> allUsers(){
+	public List<User> allUsers(){
 		return userRepo.findAll();
 	}
     // TO-DO: Write register and login methods!

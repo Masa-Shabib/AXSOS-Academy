@@ -5,7 +5,6 @@ import java.util.List;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -24,9 +23,14 @@ import com.bookClub.services.BookService;
 
 @Controller
 public class BookController {
-	@Autowired
-    private BookService bookServ;
 	
+    private final BookService bookServ;
+    
+	
+	public BookController(BookService bookServ) {
+		this.bookServ = bookServ;
+	}
+
 	@GetMapping("/books")
     public String home(Model model, HttpSession session) {
     	if (session.getAttribute("user") != null) {

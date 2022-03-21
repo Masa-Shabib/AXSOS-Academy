@@ -37,16 +37,14 @@
                     </div>
                     <div class="form-floating my-3">
                       <form:input path="author" class="form-control" name = "author" id="floatingInput" placeholder="name@example.com"/>
-                      <form:label path="author" for="floatingInput">author:</form:label>
+                      <form:label path="author" for="floatingInput">Author:</form:label>
                         <form:errors path="author" class = "my-3" style="color: red;"/>
                     </div>
                     <div class="form-floating mb-4">
                       <form:textarea path="thought" class="form-control" placeholder="Leave a comment here" name = "thought" id="floatingTextarea2" style="height: 100px"></form:textarea>
-                      <form:label path="thought" for="floatingTextarea2">Description</form:label>
+                      <form:label path="thought" for="floatingTextarea2">Thought:</form:label>
                     <form:errors path="thought" class = "my-3" style="color: red;"/>
                     </div>
-                    
-
                     <button type="submit" class="btn btn-outline-warning align-self-center">Create</button>
                     </form:form>
     		</div>

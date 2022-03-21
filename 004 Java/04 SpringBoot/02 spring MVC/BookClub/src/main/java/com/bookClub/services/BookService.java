@@ -2,7 +2,6 @@ package com.bookClub.services;
 
 import java.util.List;
 import java.util.Optional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.bookClub.models.Book;
 import com.bookClub.repositories.BookRepository;
@@ -10,9 +9,13 @@ import com.bookClub.repositories.BookRepository;
 
 @Service
 public class BookService {
-	@Autowired
-    private BookRepository bookRepo;
 	
+    private final BookRepository bookRepo;
+	
+	public BookService(BookRepository bookRepo) {
+		this.bookRepo = bookRepo;
+	}
+
 	public List<Book> allBooks(){
 		return bookRepo.findAll();
 	}
@@ -32,7 +35,7 @@ public class BookService {
 	
 	public Book updateBook(Book book) {
 		Book book1 = bookRepo.findById(book.getId()).orElse(null);
-		assert book!=null;
+		assert book1!=null;
 		book1.setTitle(book.getTitle());
 		book1.setAuthor(book.getAuthor());
 		book1.setThought(book.getThought());

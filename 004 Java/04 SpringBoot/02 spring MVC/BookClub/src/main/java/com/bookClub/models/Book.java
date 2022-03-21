@@ -29,7 +29,7 @@ public class Book {
     private String author;
     
     @NotEmpty(message="Thought is required!")
-    @Size(min=8, max=200, message="Thought must be between 8 and 200 characters")
+    @Size(min=8, max=200, message="Thought must be at least 8 characters")
     private String thought;
     
     @ManyToOne(fetch = FetchType.LAZY)
