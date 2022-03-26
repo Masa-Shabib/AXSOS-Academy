@@ -1,18 +1,25 @@
-package com.bookClub.models;
+package com.projectManager.modeles;
 
+import java.util.Date;
 import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 
 @Entity
@@ -39,11 +46,30 @@ public class User {
     @Size(min=8, max=128, message="Confirm Password must be between 8 and 128 characters")
     private String confirm;
     
-    @OneToMany(mappedBy="user", fetch = FetchType.LAZY)
-    private List<Book> books;
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date createdAt;
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date updatedAt;
     
-    @OneToMany(mappedBy="borrow", fetch = FetchType.LAZY)
-    private List<Book> borrowBooks;
+    @OneToMany(mappedBy="teamLead", fetch = FetchType.LAZY)
+    private List<Project> Leadprojects;
+    
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+        name = "team_members", 
+        joinColumns = @JoinColumn(name = "teamMember_id"), 
+        inverseJoinColumns = @JoinColumn(name = "project_id")
+    )
+    private List<Project> joinedProject;
+    
+    
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+        name = "tasks", 
+        joinColumns = @JoinColumn(name = "postedBy_id"), 
+        inverseJoinColumns = @JoinColumn(name = "project_id")
+    )
+    private List<Project> projects;
     
 	public User() {
 	}
@@ -53,7 +79,17 @@ public class User {
 		this.email = email;
 		this.password = password;
 	}
-
+	
+	@PrePersist
+    protected void onCreate(){
+        this.createdAt = new Date();
+    }
+	
+	@PreUpdate
+    protected void onUpdate(){
+        this.updatedAt = new Date();
+    }
+	
 	public Long getId() {
 		return id;
 	}
@@ -94,21 +130,49 @@ public class User {
 		this.confirm = confirm;
 	}
 
-	public List<Book> getBooks() {
-		return books;
+	public Date getCreatedAt() {
+		return createdAt;
 	}
 
-	public void setBooks(List<Book> books) {
-		this.books = books;
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
 	}
 
-	public List<Book> getBorrowBooks() {
-		return borrowBooks;
+	public Date getUpdatedAt() {
+		return updatedAt;
 	}
 
-	public void setBorrowBooks(List<Book> borrowBooks) {
-		this.borrowBooks = borrowBooks;
+	public void setUpdatedAt(Date updatedAt) {
+		this.updatedAt = updatedAt;
 	}
+
+	public List<Project> getLeadprojects() {
+		return Leadprojects;
+	}
+
+	public void setLeadprojects(List<Project> leadprojects) {
+		Leadprojects = leadprojects;
+	}
+
+
+
+	public List<Project> getJoinedProject() {
+		return joinedProject;
+	}
+
+	public void setJoinedProject(List<Project> joinedProject) {
+		this.joinedProject = joinedProject;
+	}
+
+	public List<Project> getProjects() {
+		return projects;
+	}
+
+	public void setProjects(List<Project> projects) {
+		this.projects = projects;
+	}
+
+
     
     
     

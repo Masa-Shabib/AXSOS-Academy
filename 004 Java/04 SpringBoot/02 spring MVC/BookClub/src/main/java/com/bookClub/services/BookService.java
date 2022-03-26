@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
 import com.bookClub.models.Book;
+import com.bookClub.models.User;
 import com.bookClub.repositories.BookRepository;
 
 
@@ -41,4 +42,44 @@ public class BookService {
 		book1.setThought(book.getThought());
 		return bookRepo.save(book1);
 	}
+	
+	public List<Book> toborrowBooks(Long id){
+		Optional <List<Book>> books = bookRepo.findByBorrowId(id);
+		if(books.isPresent()) {
+    		return books.get();
+    	}else {
+    		return null;
+    	}
+		
+	}
+	public List<Book> borrowBooks(Long id){
+		Optional <List<Book>> books=bookRepo.findByBorrowId(id);
+		if(books.isPresent()) {
+    		return books.get();
+    	}else {
+    		return null;
+    	}
+		
+	}
+	
+	public Book borrow(Long id1 , User user) {
+		Book book1 = bookRepo.findById(id1).orElse(null);
+		assert book1!=null;
+		book1.setBorrow(user);
+
+		return bookRepo.save(book1);
+	}
+	
+	public Book returnBook(Long id1 , User user) {
+		Book book1 = bookRepo.findById(id1).orElse(null);
+		assert book1!=null;
+		book1.setBorrow(null);
+
+		return bookRepo.save(book1);
+	}
+	
+	public void delete(Long id) {
+        Book deleteBook = bookRepo.findById(id).orElse(null); 
+        bookRepo.delete(deleteBook);
+      }
 }

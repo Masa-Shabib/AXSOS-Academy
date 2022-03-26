@@ -35,7 +35,12 @@ public class Book {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="user_id")
     private User user;
+    
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="borrow_id")
+    private User borrow;
 
+    
 	public Book() {
 	}
 
@@ -84,6 +89,16 @@ public class Book {
 	public void setUser(User user) {
 		this.user = user;
 	}
+
+	public User getBorrow() {
+		return borrow;
+	}
+
+	public void setBorrow(User borrow) {
+		this.borrow = borrow;
+	}
+
+
     
 	
     

@@ -1,6 +1,7 @@
 package com.bookClub.controllers;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
@@ -8,6 +9,7 @@ import javax.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -117,6 +119,58 @@ public class BookController {
     		return "redirect:/";
     	}
     }
+	
+	@GetMapping("/bookmarket")
+    public String Bookmarket(HttpSession session, Model model) {
+        if (session.getAttribute("user") != null) {
+        	model.addAttribute("user", session.getAttribute("user"));
+        	User user = (User) session.getAttribute("user");
+        	List<Book> allBooks = bookServ.toborrowBooks(null);
+        	List<Book> borrowBooks = bookServ.borrowBooks(user.getId());
+        	model.addAttribute("borrowed", borrowBooks);
+            model.addAttribute("allbooks", allBooks);
+            return "Bookmarket.jsp";
+        }
+        else {
+            return "redirect:/";
+        }
+
+    }
+	
+	@GetMapping("/books/{id}/borrow")
+	 public String borrowBook(@PathVariable("id") Long id, Model model,HttpSession session) {
+		if (session.getAttribute("user") != null) {
+			model.addAttribute("user", session.getAttribute("user"));
+			Book book = bookServ.findBook(id);
+			model.addAttribute("book",book);
+			User user = (User) session.getAttribute("user");
+			bookServ.borrow(id, user);
+			return "redirect:/bookmarket";
+   	}else {
+   		return "redirect:/";
+   	}	
+	}
+	
+	@GetMapping("/books/{id}/return")
+	 public String returnBook(@PathVariable("id") Long id, Model model,HttpSession session) {
+		if (session.getAttribute("user") != null) {
+			model.addAttribute("user", session.getAttribute("user"));
+			Book book = bookServ.findBook(id);
+			model.addAttribute("book",book);
+			User user = (User) session.getAttribute("user");
+			bookServ.returnBook(id, user);
+			return "redirect:/bookmarket";
+  	}else {
+  		return "redirect:/";
+  	}	
+	}
+	
+	@DeleteMapping("/books/{id}/delete")
+    public String destroy(@PathVariable("id") Long id) {
+		bookServ.delete(id);
+        return "redirect:/bookmarket";
+    }
+	
 }
 	
 	
