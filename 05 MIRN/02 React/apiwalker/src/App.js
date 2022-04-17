@@ -17,9 +17,9 @@ function App() {
         history.push(`/${selected}/${number}`);
   }
   return (
+      <BrowserRouter>
     <div className="App">
       <Star handleClick={handleClick} />
-      <BrowserRouter>
       <Switch>
         <Route path="/people/:id" >
         <People/>
@@ -28,8 +28,8 @@ function App() {
         <Planets />
         </Route>
       </Switch>
-    </BrowserRouter>
     </div>
+    </BrowserRouter>
   );
 }
 
