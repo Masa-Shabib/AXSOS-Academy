@@ -1,37 +1,32 @@
 
 import './App.css';
-import { useHistory } from 'react-router-dom';
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Star from './components/Star';
+import {Route, Switch ,BrowserRouter} from 'react-router-dom';
+/* IMPORT LINK, ROUTE, & || SWITCH FROM REACT ROUTER DOM
+SEE INDEX.JS FOR BROWSER ROUTER*/
+import Planet from './components/Planet';
 import People from './components/People';
-import Planets from './components/Planets';
+import Form from './components/Form';
+
 
 function App() {
-  const history = useHistory();
-  const handleClick = (selected, number) => {
-        console.log(`/${selected}/${number}`);
-        history.push(`/${selected}/${number}`);
-  }
   return (
-      <BrowserRouter>
+    <BrowserRouter>
     <div className="App">
-      <Star handleClick={handleClick} />
+      <h4>Use the Schwarz </h4>
+      <Form/>
+      {/*ANYTHING OUTSIDE OF SWITCH WILL ALWAYS SHOW*/}
       <Switch>
-        <Route path="/people/:id" >
-        <People/>
+      {/*PUT COMPONENT IN ROUTE IN SWITCH SO ONLY SHOWS WHEN PATH USED*/}
+        <Route path ='/planets/:input1'>
+          <Planet/>
         </Route>
-        <Route path="/planets/:id" >
-        <Planets />
+        <Route path ='/people/:input1'>
+          <People/>
         </Route>
       </Switch>
     </div>
     </BrowserRouter>
   );
 }
-
 
 export default App;
