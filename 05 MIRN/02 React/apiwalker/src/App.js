@@ -1,7 +1,5 @@
 
 import './App.css';
-import axios from 'axios';
-import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
   BrowserRouter,
@@ -14,7 +12,6 @@ import Planets from './components/Planets';
 
 function App() {
   const history = useHistory();
-  const [displayData, setDisplayData] = useState('');
   const handleClick = (selected, number) => {
         console.log(`/${selected}/${number}`);
         history.push(`/${selected}/${number}`);
